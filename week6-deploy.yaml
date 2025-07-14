@@ -1,0 +1,14 @@
+template-file-path: infra.yaml
+parameters:
+  ImageTag: latest
+  ECRRepositoryName: springboot-image-app
+  ContainerMemory: '512'
+  EnvironmentName: FotoApp
+  ContainerCPU: '256'
+  AppPort: '8000'
+  HostPort: '8000'
+  SecretsManagerArn: >-
+    arn:aws:secretsmanager:eu-central-1:767828749690:secret:ImageAppSecrets-PR4NkN
+  ContainerPort: '8000'
+  DesiredCount: '2'
+tags: {}

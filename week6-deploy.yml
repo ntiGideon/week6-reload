@@ -1,0 +1,5 @@
+template-file-path: infra.yaml
+parameters:
+  SecretsManagerArn: >-
+    arn:aws:secretsmanager:eu-central-1:767828749690:secret:ImageAppSecrets-PR4NkN
+tags: {}
